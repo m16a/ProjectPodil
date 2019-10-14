@@ -37,6 +37,22 @@
 			"Type": "SymbolFile"
 		},
 		{
+			"Path": "$(ProjectDir)/Plugins/StreetMap/Binaries/Win64/UE4Editor-StreetMapRuntime.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/StreetMap/Binaries/Win64/UE4Editor-StreetMapRuntime.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/StreetMap/Binaries/Win64/UE4Editor-StreetMapImporting.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/StreetMap/Binaries/Win64/UE4Editor-StreetMapImporting.pdb",
+			"Type": "SymbolFile"
+		},
+		{
 			"Path": "$(EngineDir)/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll",
 			"Type": "DynamicLibrary"
 		},
@@ -1941,6 +1957,10 @@
 			"Type": "RequiredResource"
 		},
 		{
+			"Path": "$(ProjectDir)/Plugins/StreetMap/Binaries/Win64/UE4Editor.modules",
+			"Type": "RequiredResource"
+		},
+		{
 			"Path": "$(EngineDir)/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor.modules",
 			"Type": "RequiredResource"
 		},
@@ -2260,6 +2280,10 @@
 		},
 		{
 			"Path": "$(ProjectDir)/Plugins/SRombauts-UE4GitPlugin-310040f/GitSourceControl.uplugin",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/StreetMap/StreetMap.uplugin",
 			"Type": "UFS"
 		},
 		{
